@@ -23,7 +23,7 @@ At first it looks just like 1 vimrc file, yeah? Nevermind, it's just an illusion
 `:BundleInstall`
 
 5. It will take some time for downloading plugins. After run simple script that will install some plugins (things like Command-T must be compiled, this script will make it for you)
-`sudo bash ./setup.sh`
+`sudo bash ~/.vim/setup.sh`
 
 #Plugins
 
