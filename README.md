@@ -2,7 +2,7 @@
 
 This is another set of vimfiles with plugins. Made for web-development with ruby on rails, including stuff like HAML, SCSS, CoffeeScript, etc.
 
-To manage plugins, this vimfiles set uses [Vundle](https://github.com/gmarik/vundle). So, you can install it in 4 steps and easily update, add and delete existing plugins.
+To manage plugins, this vimfiles set uses [Vundle](https://github.com/gmarik/vundle). So, you can install it in 5 steps and easily update, add and delete existing plugins.
 
 At first it looks just like 1 vimrc file, yeah? Nevermind, it's just an illusion. This vimrc with Vundle's help will install and setup all modules that you need. You will have a real vim-based IDE for web-development. 
 
@@ -11,19 +11,18 @@ At first it looks just like 1 vimrc file, yeah? Nevermind, it's just an illusion
 1. Just clone it:
 `git clone https://github.com/dehart/another_vimfiles ~/.vim`
 
-2. Now you should decide, whether you want to rewrite your old .vimrc (don't forget about backup!)
-`cp ~/.vim/vimrc ~/.vimrc`
+2. Install Vundle:
+`git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle`
 
-or you want to symlink it:
+3. Now you should decide, whether you want to rewrite your old .vimrc (don't forget about backup!)
+`cp ~/.vim/vimrc ~/.vimrc` or you want to symlink it:
 `ln -s ~/.vim/vimrc ~/.vimrc`
 
-3. Open your vim (I know, it will be some errors, but it will be gone after installation):
-`vim`
-
-and run this:
+4. Open your vim (I know, it will be some errors, but it will be gone after installation):
+`vim` and run this:
 `:BundleInstall`
 
-4. It will take some time for downloading plugins. After run simple script that will install some plugins (things like Command-T must be compiled, this script will make it for you)
+5. It will take some time for downloading plugins. After run simple script that will install some plugins (things like Command-T must be compiled, this script will make it for you)
 `sudo bash ./setup.sh`
 
 #Plugins
