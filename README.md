@@ -9,7 +9,7 @@ At first it looks just like 1 vimrc file, yeah? Nevermind, it's just an illusion
 #Installation
 
 1. Just clone it:
-`git clone https://github.com/dehart/another_vimfiles`
+`git clone https://github.com/dehart/another_vimfiles ~/.vim`
 
 2. Now you should decide, whether you want to rewrite your old .vimrc (don't forget about backup!)
 `cp ~/.vim/vimrc ~/.vimrc`
