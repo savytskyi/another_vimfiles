@@ -70,6 +70,7 @@ Bundle 'vim-scripts/rubycomplete.vim'
 Bundle 'cakebaker/scss-syntax.vim'
 Bundle 'itspriddle/vim-jquery'
 Bundle 'digitaltoad/vim-jade'
+Bundle 'wavded/vim-stylus'
 
 "textobj-rubyblock
 runtime macros/matchit.vim
