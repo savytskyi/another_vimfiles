@@ -23,7 +23,11 @@ call vundle#rc()
 "
 
 Bundle 'gmarik/vundle'
+<<<<<<< HEAD
 Bundle 'digitaltoad/vim-jade'
+=======
+
+>>>>>>> 0906681cdd4d8922da6d2b370f0f9918c4d609b1
 Bundle 'git://git.wincent.com/command-t.git'
 Bundle 'gregsexton/MatchTag'
 Bundle 'vim-scripts/a.vim'
@@ -69,6 +73,10 @@ Bundle 'tpope/vim-haml'
 Bundle 'vim-scripts/rubycomplete.vim'
 Bundle 'cakebaker/scss-syntax.vim'
 Bundle 'itspriddle/vim-jquery'
+<<<<<<< HEAD
+=======
+Bundle 'digitaltoad/vim-jade'
+>>>>>>> 0906681cdd4d8922da6d2b370f0f9918c4d609b1
 Bundle 'wavded/vim-stylus'
 
 "textobj-rubyblock
@@ -130,8 +138,12 @@ set foldmethod=indent   "fold based on indent
 set foldnestmax=3       "deepest fold is 3 levels
 set nofoldenable        "dont fold by default
 
+<<<<<<< HEAD
 "set wildmode=list:longest   "make cmdline tab completion similar to bash
 set wildmode=longest,list
+=======
+set wildmode=list:longest   "make cmdline tab completion similar to bash
+>>>>>>> 0906681cdd4d8922da6d2b370f0f9918c4d609b1
 set wildmenu                "enable ctrl-n and ctrl-p to scroll thru matches
 set wildignore=*.o,*.obj,*~ "stuff to ignore when tab completing
 

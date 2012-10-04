@@ -9,7 +9,7 @@ At first it looks just like 1 vimrc file, yeah? Nevermind, it's just an illusion
 #Installation
 
 1. Just clone it:
-`git clone https://github.com/dehart/another_vimfiles ~/.vim`
+`git clone https://github.com/savitsky/another_vimfiles ~/.vim`
 
 2. Install Vundle:
 `git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle`
