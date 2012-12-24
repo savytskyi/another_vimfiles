@@ -21,7 +21,7 @@ Previous version had many plugins for HTML, CSS, Rails, Ruby, Python, Node.JS, C
 `ln -s ~/.vim/vimrc ~/.vimrc`
 
 4. Okay, we can install plugins now. Just run this:
-`vim +BundleInstall +qall' 
+`vim +BundleInstall +qall` 
 Or you can open vim (I know, there will be some errors, but it will be gone soon):
 `vim` and run this:
 `:BundleInstall`
