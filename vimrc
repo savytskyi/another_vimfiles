@@ -45,7 +45,6 @@ Bundle 'scrooloose/syntastic'
 Bundle 'godlygeek/tabular'
 Bundle 'Shougo/neocomplcache'
 Bundle 'Shougo/neosnippet'
-Bundle 'ervandew/screen'
 
 
 """"""""""""""""""""""""""""""""""""""""
