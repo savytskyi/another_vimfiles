@@ -121,6 +121,9 @@ set undofile
 " VIM appearence
 """"""""""""""""""""""""""""""""""""""""
 
+"hide docs preview
+set completeopt-=preview
+
 set cursorline
 hi CursorLine guibg=#333333
 
